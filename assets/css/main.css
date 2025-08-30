@@ -6,6 +6,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Cabeçalho */
+
 header {
   width: 100vw;
   height: 459px;
@@ -64,4 +66,47 @@ header p {
   width: 280px;
   background: #23272a;
   color: #fff;
+}
+
+/* Sections */
+
+.section {
+  width: 100vw;
+  height: 448px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #23272a;
+}
+
+.section--2,
+.section--4 {
+    background-color: #f6f6f6;
+}
+
+.section__content {
+  width: 971px;
+  height: 394px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__content img {
+  width: 607px;
+  height: 394px;
+}
+
+.section__text {
+    width: 348px;
+}
+
+.section__title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section__description {
+    font-size: 16px;
+    font-weight: 400;
 }
